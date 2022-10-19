@@ -38,9 +38,9 @@ For our text data, three NLP processes were used: Bag of Words, Document Embeddi
 
 1.) - Bag of Words is the simplest here, counting word frequencies in documents. Before this, the text is cleaned and simplified.
 
-2.) - Document Embeddings leverages the principle components of a large language model - in this case, ROBERTA-Large. These principle components reflect the 1024 most-descriptive dimensions in a larger corpus of text. We can convert our text data into these dimensions and use it to differentiate text styles.
+2.) - Document Embeddings leverages the principle components of a large language model - in this case, [ROBERTA-Large](https://huggingface.co/roberta-large) from hugging face. These principle components reflect the 1024 most-descriptive dimensions in a larger corpus of text. We can convert our text data into these dimensions and use it to differentiate text styles.
 
-3.) - Top2Vec is another layer on top of document embeddings - Top2Vec is the combination of a document embedding pipeline with a clustering algorithm, which identifies distinct clusters of documents and assigns them a label. Top2Vec is very interpretable, we can see what these topics are and which words tend to occur within them. two  examples in our analysis were OpenAI and posts hiring PHD candidates.
+3.) - [Top2Vec](https://github.com/ddangelov/Top2Vec) is another layer on top of document embeddings - Top2Vec is the combination of a document embedding pipeline with a clustering algorithm, which identifies distinct clusters of documents and assigns them a label. Top2Vec is very interpretable, we can see what these topics are and which words tend to occur within them. two  examples in our analysis were OpenAI and posts hiring PHD candidates.
 
 After our NLP pipeline, we have about 2500 features which can be reduced based on correlation with our target or SequentialFeatureSelection. For our regression we took the top 256 features based on correlation, while for classification we just went ahead and fed the full 2500 features into our machine learning.
 
@@ -52,7 +52,7 @@ Ultimately 6 machine learning algorithms were tried:
 - 1D CNN (cut from notebooks)
 - TabNet
 
-Deep Learning and 1D CNNs were eventually cut, as they consistently underperformed compared to TabNet; TabNet is a deep learning algorithm developed by Google specifically for working with tabular data. 1D CNNs are an interesting approach however, converting text data into a simplified form of "image" in order to recognize patterns in data. In some cases this can perform well, but this did not appear to be one of those cases.
+Deep Learning and 1D CNNs were eventually cut, as they consistently underperformed compared to TabNet; [TabNet](https://github.com/dreamquark-ai/tabnet) is a deep learning algorithm developed by Google specifically for working with tabular data. 1D CNNs are an interesting approach however, converting text data into a simplified form of "image" in order to recognize patterns in data. In some cases this can perform well, but this did not appear to be one of those cases.
 
 ## Validation
 
