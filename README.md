@@ -67,9 +67,14 @@ Our classification was 97% accurate at classifying tweets as over or under 50 re
 Our best performing algorithm for regression was XGBoost, while our best performing algorithm for classification was a Random Forest. I had high hopes for TabNet in interpreting our 2500 features but this failed to beat XGBoost on our traditional feature set.
 
 ROC Curve for classification:
+
 ![ROC Curve](https://github.com/thegrandblooms/Information_Propagation_Analysis/blob/7fd9a9495574721da3560f385ea9f73eb71784a5/graphics/roc-auc.png)
 
+Regression Root-mean-squared-error across our baseline and our three main regression models - XGBoost on document embeddings, an ensemble of nlp and metadata, and just metadata:
+
 ![Regression rmse](https://github.com/thegrandblooms/Information_Propagation_Analysis/blob/7fd9a9495574721da3560f385ea9f73eb71784a5/graphics/regression_rmse.jpg)
+
+A Confusion Matrix for our random forest classification on holdout data:
 
 ![Random Forest Confusion Matrix](https://github.com/thegrandblooms/Information_Propagation_Analysis/blob/7fd9a9495574721da3560f385ea9f73eb71784a5/graphics/rf_confusion_matrix.png)
 
