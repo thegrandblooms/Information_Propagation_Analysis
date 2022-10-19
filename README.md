@@ -76,9 +76,9 @@ Regression Root-mean-squared-error across our baseline and our three main regres
 
 ![Regression rmse](https://github.com/thegrandblooms/Information_Propagation_Analysis/blob/7fd9a9495574721da3560f385ea9f73eb71784a5/graphics/regression_rmse.jpg)
 
-A Confusion Matrix for our random forest classification on holdout data:
+A Classification report for our random forest classification on holdout data:
 
-![Random Forest Confusion Matrix](https://github.com/thegrandblooms/Information_Propagation_Analysis/blob/7fd9a9495574721da3560f385ea9f73eb71784a5/graphics/rf_confusion_matrix.png)
+![Final classification report](https://github.com/thegrandblooms/Information_Propagation_Analysis/blob/6c3d95c402880f22923a6451b94f9aabc493cd22/graphics/classification_performance.jpg)
 
 ## Conclusion
 
