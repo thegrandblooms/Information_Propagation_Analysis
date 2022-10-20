@@ -82,7 +82,7 @@ A Classification report for our random forest classification on holdout data:
 
 ## Conclusion
 
-Virality may always be hard to predict – like predicting the stock market, if you find something that works, it changes the landscape and probably stops working. We were able to predict some
+We were able to predict about 11% of variance using NLP and about 28% of variance using account data in our regression models, and achieved an accuracy of 97% and an F1 score of ~0.26 in classification. Virality may always be hard to predict – like predicting the stock market, if you find something that works, it changes the landscape and may stop working. Still, these results are promising and probably have utility in the right marketing dashboard.
 
 ## Next Steps
 
