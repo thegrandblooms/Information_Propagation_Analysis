@@ -59,7 +59,7 @@ Deep Learning and 1D CNNs were eventually cut, as they consistently underperform
 
 ## Validation
 
-For validating our models, we split our data into train, validation and test sets. For classification, the sizes of these sets were 23310, 6475, and 2590 respectively. Training was performed using training and validation sets, validation set was used to compare models, and then after a final model was chosen, our test set was used to confirm our results. Our Random Forest model went from an F1 of .31 to an F1 of .26, which is not bad considering we only have 70 positive targets in our test set.
+For validating our models, we split our data into train, validation and test sets. For classification, the sizes of these sets were 23310, 6475, and 2590 respectively. Training was performed using training and validation sets, validation set was used to compare models, and then after a final model was chosen, our test set was used to confirm our results. Our Random Forest model went from an F1 of .31 in our validation set to an F1 of .26 in our test set, which was better than expected considering we only have 70 positive targets in our test set.
 
 ## Findings
 
