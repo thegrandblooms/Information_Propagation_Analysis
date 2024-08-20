@@ -4,7 +4,7 @@ Author: Blake McMeekin
 
 ## Overview
 
-Information propagation is one of the fundamental forces of nature shaping our world. Whether you hear about a new idea or company, whether your research paper gets cited, whether your research gets funding or crosses into commercial applications, or whether customers hear about your new company all ultimately depend on the way information is communicated and shared. Political campaigns, misinformation, company cultures and social revolutions all have one thing in common: some idea or set of information has propagated. All of culture, business, and technology can be seen and possibly measured through this lens.
+Information propagation is one of the fundamental forces of nature shaping our world. Whether your research paper gets cited, gets funding, or crosses into commercial applications, or whether customers hear about your new idea or company all depend on the way information is communicated and shared. Political campaigns, misinformation, company cultures and social revolutions all have one thing in common: some idea or set of information has propagated. All of culture, business, and technology can be seen and possibly measured through this lens.
 
 If, on watching a new TV show, you share it with more than one other person, and they each share it with more than one person, and that pattern continues, that show will spread exponentially. This propagation rate (spreading more than once on average) is referred to as R0 in epidemiology. ["The R0 value of COVID-19 as initially estimated by the World Health Organization (WHO) was between 1.4 and 2.4"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7751056/) Anything that propagates (organisms, viruses, information, services, research) has an R0 value.
 
