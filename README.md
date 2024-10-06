@@ -1,6 +1,5 @@
 ![Header Graphic](https://github.com/thegrandblooms/Information_Propagation_Analysis/blob/7fd9a9495574721da3560f385ea9f73eb71784a5/graphics/infoprop_header.jpg)
 # Analyzing Information Propagation using NLP and Machine Learning
-Author: Blake McMeekin
 
 ## Overview
 
